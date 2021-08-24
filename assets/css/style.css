@@ -1,7 +1,7 @@
 :root {
     --primary-color: #fce138;
     --secondary-color: #024e76;
-    --tertiary-color : #39a6b2;
+    --tertiary-color: #39a6b2;
 }
 
 * {
@@ -187,7 +187,7 @@ section {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);  
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);  
     position: absolute;
     top: -4px;
     left: -30px;
@@ -206,7 +206,7 @@ section {
     position: absolute;
     top: -4px;
     left: -30px;
-    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color);
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--seconary-color));
   }
 
 .checkbox-wrapper label::after {
